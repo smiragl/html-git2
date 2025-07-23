@@ -1,3 +1,19 @@
+@media all and (min-width: 10000px) {
+    html.mm-opening.mm-fullscreen .mm-slideout {
+        -webkit-transform: translate(10000px, 0);
+        -moz-transform: translate(10000px, 0);
+        -ms-transform: translate(10000px, 0);
+        -o-transform: translate(10000px, 0);
+    }
+
+    html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
+        -webkit-transform: translate(-10000px, 0);
+        -moz-transform: translate(-10000px, 0);
+        -ms-transform: translate(-10000px, 0);
+        -o-transform: translate(-10000px, 0);
+    }
+}
+
 @media (min-width: 991px) {
 
     .off-canvas-active>#page,
@@ -12,6 +28,25 @@
         display: none !important;
     }
 }
+
+@media all and (min-width: 550px) {
+    html.mm-opening .mm-slideout {
+        -webkit-transform: translate(440px, 0);
+        -moz-transform: translate(440px, 0);
+        -ms-transform: translate(440px, 0);
+        -o-transform: translate(440px, 0);
+        -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+        box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    html.mm-right.mm-opening .mm-slideout {
+        -webkit-transform: translate(-440px, 0);
+        -moz-transform: translate(-440px, 0);
+        -ms-transform: translate(-440px, 0);
+        -o-transform: translate(-440px, 0);
+    }
+}
+
 
 @media (max-width: 767px) {
     #apollo-verticalmenu .title_block {
@@ -100,5 +135,61 @@
 
     .block_aboutshop .block_content {
         display: block !important;
+    }
+    /*LEFT - MENU*/
+  .button-collapse-left, .drag-target-left {
+    left: 0;
+    transition: all 0.6s ease 0s; }
+
+  .off-canvas-active .button-collapse-left, .off-canvas-active .drag-target-left {
+    left: 240px;
+    transition: all 0.3s ease 0s;
+    display: none; }
+
+  .hide.drag-target-left, .hide.button-collapse-left {
+    left: -100px;
+    transition: all 0.6s ease 0s; }
+
+  /*RIGHT - MENU*/
+  .button-collapse-right, .drag-target-right {
+    right: 0;
+    transition: all 0.6s ease 0s; }
+
+  .hide.drag-target-right, .hide.button-collapse-right {
+    right: -100px;
+    transition: all 0.6s ease 0s; }
+}
+
+@media all and (max-width: 175px) {
+    html.mm-opening .mm-slideout {
+        -webkit-transform: translate(140px, 0);
+        -moz-transform: translate(140px, 0);
+        -ms-transform: translate(140px, 0);
+        -o-transform: translate(140px, 0);
+        -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+        box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    html.mm-right.mm-opening .mm-slideout {
+        -webkit-transform: translate(-140px, 0);
+        -moz-transform: translate(-140px, 0);
+        -ms-transform: translate(-140px, 0);
+        -o-transform: translate(-140px, 0);
+    }
+}
+
+@media all and (max-width: 140px) {
+    html.mm-opening.mm-fullscreen .mm-slideout {
+        -webkit-transform: translate(140px, 0);
+        -moz-transform: translate(140px, 0);
+        -ms-transform: translate(140px, 0);
+        -o-transform: translate(140px, 0);
+    }
+
+    html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
+        -webkit-transform: translate(-140px, 0);
+        -moz-transform: translate(-140px, 0);
+        -ms-transform: translate(-140px, 0);
+        -o-transform: translate(-140px, 0);
     }
 }
