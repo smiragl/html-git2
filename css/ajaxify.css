@@ -23,9 +23,8 @@
     display: block;
     opacity: 1; }
 
-/*============================================================================
-  Ajaxify Cart - General
-==============================================================================*/
+/*
+  Ajaxify Cart - General*/
 .ajaxcart__content {
   position: relative;
   background-color: white;
@@ -121,9 +120,8 @@
     margin: 0 auto;
     max-width: 100%; }
 
-/*============================================================================
-  #Quantity Selectors
-==============================================================================*/
+/*
+  #Quantity Selectors*/
 .js-qty, .ajaxcart__qty {
   position: relative;
   max-width: 80px;
@@ -184,9 +182,9 @@
   border-left: 1px solid #e5e5e5;
   border-top: 1px solid #e5e5e5; }
 
-/*============================================================================
+/*
   #Quantity Selectors in the Ajax Cart
-==============================================================================*/
+*/
 .ajaxcart__qty {
   display: inline-block;
   margin: 0; }
@@ -198,9 +196,9 @@
     -o-transition: none;
     transition: none; }
 
-/*============================================================================
+/*
   Ajaxify Flip
-==============================================================================*/
+*/
 .flip {
   display: block;
   float: left;
@@ -315,9 +313,9 @@
 .flip__checkout {
   margin: 0; }
 
-/*============================================================================
+/*
   Ajaxify Modal
-==============================================================================*/
+*/
 .ajaxcart--modal {
   position: absolute;
   background-color: #FFFFFF;
@@ -440,9 +438,9 @@
   .ajaxcart--modal .ajaxcart__qty-adjust {
     opacity: 1; } }
 
-/*============================================================================
+/*
   Ajaxify Drawer
-==============================================================================*/
+*/
 .ajaxcart--drawer {
   height: 0px;
   overflow: hidden;
