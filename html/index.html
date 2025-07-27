@@ -16,6 +16,44 @@
         <link rel="stylesheet" href="/css/font-rhodium Libre.css">
         <link rel="stylesheet" href="/css/font-awesome.css">
         <link rel="shortcut icon" href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/favicon.png?v=45334926844022027331445501976" type="image/png">
+
+        <!---------------- js ---------------->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nivo-slider/3.2/nivo-slider.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nivo-slider/3.2/jquery.nivo.slider.min.js"></script>
+
+<!-- jQuery Mobile (برای swipe) -->
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+<script>
+window.money_format = '<span class=\'money\'>${{amount}} USD</span>';
+window.shop_currency = 'USD';
+window.file_url = '//ap-golmart.myshopify.com/cdn/shop/files/?19';
+window.asset_url = '';
+window.wishlist_url = '/pages/wishlist';
+window.animated = false;
+window.wishlist_enable = true;
+window.quickview_enable = true;
+window.multiple_filter_sidebar_enable = false;
+</script>
+        <!-- Theme css ================================================================ -->
+ 
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/menu.scss.css?v=152561694096542433761656107406" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/product.scss.css?v=90820725270611917231502876440" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/blog.scss.css?v=146015639210173541091450175917" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/wishlist.scss.css?v=121960053064221029021445248410" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/collections.scss.css?v=165478797999262987731656107406" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/paneltool.scss.css?v=73332622601981738561445248404" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/global.scss.css?v=98077772255771754181445248401" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/site_temp.scss.css?v=46119092055413009471656107406" rel="stylesheet" type="text/css" media="all" />
+<link href="//ap-golmart.myshopify.com/cdn/shop/t/3/assets/responsive.scss.css?v=110374437356336010141447754226" rel="stylesheet" type="text/css" media="all" />
+        <!-- CSS برای Nivo Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nivo-slider/3.2/nivo-slider.css" />
     </head>
     <body id="shopify-responsive-them"
         class="template-index  header-one layout-default">
@@ -1365,8 +1403,8 @@
                                                 <div class="text_first"
                                                     style="color:#666666;">Introducing</div>
                                                 <h3
-                                                    style="color:#f44336;">AUTUMN
-                                                    COLLECTION 2015</h3>
+                                                    style="color:#f44336;">on FRIDAY <br> SALE off UP 50%
+                                                    </h3>
                                                 <p style="color:#ffffff">Proin
                                                     gravida nibh vel velit
                                                     auctor aliquet. Aenean
@@ -1474,7 +1512,73 @@
                                         style="position:absolute; width:1263px; height:auto; display:block !important; top:0; left:-0px;">
                                 </div>
                             </div>
+                            <div class="nivo-controlNav">
+                                <a class="nivo-control" rel="0">1</a>
+                                <a class="nivo-control" rel="1">2</a>
+                                <a class="nivo-control" rel="2">3</a>
+                            </div>
+                            <div id="htmlcaption1" class="apollo-html-caption">
+                                <div class="caption-fullwidth container">
+                                    <div class="slide-caption caption_1">
+                                        <div>
+                                            <div class="text_first" style="color:#666666">Introducing</div>
+                                            <h3 style="color:#f44336">AUTUMN COLLECTION 2015</h3>
+                                            <p style="color:#ffffff">
+                                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                            </p>
+                                            <a class="btn btn-slide"  title="View Collections" href="#">View Collections</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="htmlcaption2" class="apollo-html-caption">
+                                <div class="caption-fullwidth container">
+                                    <div class="slide-caption caption_2">
+                                        <div>
+                                            <div class="text_first" style="color:#666666">Introducing</div>
+                                            <h3 style="color:#f44336">AUTUMN COLLECTION 2015</h3>
+                                            <p style="color:#666666">
+                                               Bibdum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit
+                                            </p>
+                                            <a class="btn btn-slide"  title="View Collections" href="#">View Collections</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="htmlcaption3" class="apollo-html-caption">
+                                <div class="caption-fullwidth container">
+                                    <div class="slide-caption caption_3">
+                                        <div>
+                                            <div class="text_first" style="color:#666666">Introducing</div>
+                                            <h3 style="color:#f44336">on FRIDAY <br> SALE off UP 50%</h3>
+                                            <p style="color:#666666">
+                                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris
+                                            </p>
+                                            <a class="btn btn-slide"  title="Shop Now" href="#">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <script>
+    $(document).ready(function() {
+        $('#sliderlayer').nivoSlider({
+          	effect: 'random',
+          	animSpeed: 500,
+          	pauseTime: 8000
+        });
+      	$('#sliderlayer').on('swipeleft',function(e){
+			$('a.nivo-nextNav').trigger('click');
+			e.stopPropagation();
+            return false;
+		});
+        $('#sliderlayer').on('swiperight',function(e){
+			$('a.nivo-prevNav').trigger('click');
+			e.stopPropagation();
+            return false;
+		});
+    });
+    </script>
                     </section>
                     <section id="columns" class="columns-container">
                         <div class="container">
@@ -13831,6 +13935,7 @@
                                     <span class="control-span">Float header</span>
                                     <div class="float-control">
                                         <div class="onoffswitch">
+                                            <input id="floatHeader" class="onoffswitch-checkbox" name="onoffswitch" type="checkbox">
                                             <label class="onoffswitch-label" for="floatHeader">
                                                 <span class="onoffswitch-inner"></span>
                                                 <span class="onoffswitch-switch"></span>
@@ -13842,6 +13947,7 @@
                                     <span class="control-span">Float topbar</span>
                                     <div class="float-control">
                                         <div class="onoffswitch">
+                                            <input id="floatTopbar" class="onoffswitch-checkbox" name="onoffswitch" type="checkbox">
                                             <label class="onoffswitch-label" for="floatTopbar">
                                                 <span class="onoffswitch-inner"></span>
                                                 <span class="onoffswitch-switch"></span>
@@ -13978,6 +14084,11 @@
             <div id="AjaxifyCart"></div>
             <div class="ajaxcart__overlay"></div>
         </div>
+	
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
     <script src="/js/script.js"></script>
     </body>
 </html>
